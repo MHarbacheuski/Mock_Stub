@@ -8,6 +8,4 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-      - name: Run build script
-        run: ./.github/Mock_Stub/interval.rb
-        shell: bash
+
