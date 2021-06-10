@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: my step
-        uses: github/main@v3
+        run: Gemfile
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
